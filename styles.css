@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.container-left {
+    display: inline-block;
+    width: 60%;
+    margin-top: 20%;
+    padding-left: 136px;
+    
+
+}
+
+.container-right {
+    display: inline-block;
+    height: 100vh;
+    width: 40%;
+    background-color: rgba(93 ,93 ,125 ,0.16 );
+    position: absolute;
+}
+
+img {
+    position: relative;
+    top: 25%;
+    right: 130px;
+}
+
+h1 {
+    width: 368px;
+    height: 160px;
+    color: #5D5D7D;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+p {
+    width: 540px;
+    height: 144px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #5D5D7D;
+    opacity: 0.6;
+    margin: 15px 0px;
+    }
+
+button {
+    width: 269px;
+    height: 62px;
+    background-color: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .5;
+}
+
+a:nth-child(2) {
+    opacity: .4;
+}
+
+a {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+    color: #5D5D7D;
+    width: 59px;
+    height: 41px;
+    margin: 24px 0px 0px 41px;
+    cursor: pointer;
+
+}
+
+a:hover {
+    opacity: 0.4;
+
+}
+
+a:active {
+    opacity: .8;
+}
+
+header {
+    margin: 24px 0 0 41px;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .container-left {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+        
+
+    }
+    .container-right{
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+
+    }
+    img {
+        position: static;
+        max-width: 90%;
+
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+    }
+
+    p {
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24PX;
+
+    }
+
+    button {
+        margin: 0 auto;
+        display: block;
+        
+    }
+
+    }
+
+    @media screen and (max-width: 330px) {
+        
+        .container-left {
+            height: 70%;
+        }
+
+    }
+
+
+
+    
+
+
+
+
+
